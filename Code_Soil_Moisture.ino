@@ -1,15 +1,15 @@
 #define BLYNK_PRINT Serial
 
-#define BLYNK_TEMPLATE_ID "TMPL-OUjyxJv"
-#define BLYNK_DEVICE_NAME "Thử nghiệm 1"
-#define BLYNK_AUTH_TOKEN "iDvVzJ-z90zLHKg9B1y3C_T6Wnigcyvr"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_DEVICE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char auth[]= "iDvVzJ-z90zLHKg9B1y3C_T6Wnigcyvr";
-char ssid[]= "PhatPhamStudio_5Hz"; //Tên wifi
-char pass[]= "PlsChangePhat2001"; // Mật khẩu wifi
+char auth[]= "";
+char ssid[]= ""; //Tên wifi
+char pass[]= ""; // Mật khẩu wifi
 
 int Ref, sw_mode, button1, button2, sensor_value;
 
